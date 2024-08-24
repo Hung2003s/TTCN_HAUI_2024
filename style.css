@@ -245,7 +245,7 @@ header{
 .cartegory-top p {
   font-family:Arial, Helvetica, sans-serif;
   margin: 0 12px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -577,6 +577,11 @@ header{
 .cart {
   padding: 70px 0;
 }
+
+.cart a{
+  color: #0000EE;
+}
+
 .cart-top-wrap {
   display: flex;
   justify-content: center;
@@ -718,21 +723,21 @@ header{
 }
 
 .cart-content-right-button button:first-child {
-  background-color:#fff;
+  background-color: #dddd;
   border: 1px solid black;
   margin-right: 20px;
 }
 .cart-content-right-button button:first-child:hover {
-  background-color:#dddd;
+  background-color:skyblue;
 }
 .cart-content-right-button button:last-child {
-  background-color: skyblue;
+  background-color: #dddd;
   color: #fff;
   border: none;
   border: 1px solid black;
 }
 .cart-content-right-button button:last-child:hover {
-  background-color:#dddd;
+  background-color: skyblue;
   color: #333;
  
 }
@@ -773,7 +778,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:#fff;
+  background-color:#fff ;
 }
 .delivery-top-item i {
   color: #dddddd;
@@ -858,6 +863,7 @@ header{
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  color: #0000EE;
 }
 .delivery-content-left-button span {
   margin-right: 12px;
@@ -872,9 +878,10 @@ header{
   padding: 6px 12px;
   border: 2px solid black;
   cursor: pointer;
+  background-color: #dddd;
 }
 .delivery-content-left-button button:hover {
-  background-color: black;
+  background-color: skyblue;
   color: #FFF;
 }
 .delivery-content-right {
@@ -1016,7 +1023,7 @@ header{
   cursor: pointer;
 }
 .payment-content-right-payment button:hover {
-  background-color: black;
+  background-color: skyblue;
   color: #fff;
 }
 .payment-content-right table {

@@ -581,6 +581,7 @@ header{
 
 .cart a{
   color: #0000EE;
+  font-weight: bold;
 }
 
 .cart-top-wrap {

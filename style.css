@@ -42,7 +42,7 @@ header{
 }
 
 .menu > li{
-    padding: 0 30px;
+    padding: 0 35px;
     position: relative;
 }
 
@@ -58,7 +58,7 @@ header{
     padding: 10px 0 10px 15px;
     visibility: hidden;
     top: 60px;
-    transition: 0.4s;
+    transition: 0.3s;
     background-color: #fff;
     z-index: 1;
 }
@@ -90,6 +90,7 @@ header{
 
 .others > li:first-child {
     position: relative;
+    padding: 0;
 }
 
 .others > li:first-child input{
@@ -100,13 +101,13 @@ header{
 
 .others > li:first-child i{
     position: absolute;
-    right: 20px;
+    right: 3px;
     top: 2px;
 }
 
 #slide{
     padding-bottom: 30px;
-    border-bottom: 2px solid;
+    /* border-bottom: 2px solid; */
     overflow: hidden;
   }
 
@@ -153,6 +154,7 @@ header{
   /*----------------app-----------------*/
 
   .app-container{
+    border-top: 2px solid black;
     text-align: center;
     align-items: center;
     padding: 100px 0 30px;
@@ -347,6 +349,7 @@ header{
 
 .product {
   padding: 100px 0;
+  border-bottom: 2px solid black;
 }
 
 .product-top {
@@ -356,7 +359,7 @@ header{
 .product-top p {
   font-family:Arial, Helvetica, sans-serif;
   margin: 0 12px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -911,4 +914,136 @@ header{
 }
 .register-input:checked ~ .register {
   display: flex;
+}
+
+/* --------------------------PAYMENT-------------------------------------- */
+.payment {
+  padding: 100px 0;
+}
+.payment-top-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.payment-top {
+  height: 2px;
+  width: 70%;
+  background-color: #dddddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 100px;
+}
+.payment-top-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#fff;
+}
+.payment-top-item i {
+  color: #dddddd;
+}
+.payment-top .delivery-top-payment {
+  border: 1px solid #0DB7EA;
+}
+.payment-top .delivery-top-payment i{
+  color: #0DB7EA;
+}
+.payment-content-left {
+  width: 60%;
+}
+
+.payment-content-left-method-delivery-item{
+  padding: 5px 0 10px 0;
+}
+
+.payment-content-left-method-payment-item-img{
+  padding: 5px 0;
+}
+
+.payment-content-right {
+  width: 40%;
+  border-left: 2px solid #ddd;
+  padding-left: 12px;
+}
+.payment-content-left p,label {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.payment-content-right-button {
+  display: flex;
+  padding: 12px 0;
+  border-bottom: 1px dashed #dddddd;
+}
+.payment-content-right-button input {
+  height: 30px;
+  width: 200px;
+  margin-right: 100px;
+  padding-left: 12px;
+}
+.payment-content-right-button button {
+  height: 30px;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  border: none;
+}
+.payment-content-right-mnv {
+  margin-top: 20px;
+}
+.payment-content-right-mnv select {
+  height: 30px; 
+  width: 100%;
+  color: #75758A;
+  padding-left: 12px;
+}
+.payment-content-right-payment {
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+}
+.payment-content-right-payment button {
+  height: 35px;
+  padding: 0 20px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.payment-content-right-payment button:hover {
+  background-color: black;
+  color: #fff;
+}
+.payment-content-right table {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+}
+.payment-content-right table tr th:first-child {
+  text-align: left;
+}
+.payment-content-right table tr th {
+ padding-bottom: 12px;
+ border-bottom: 2px solid #dddddd;
+}
+.payment-content-right table tr th:last-child {
+  text-align: right;
+}
+.payment-content-right table tr td {
+ padding: 6px 0;
+
+}
+
+.payment-content-right table tr td:last-child {
+  text-align: right;
+}
+.payment-content-right table tr td:first-child {
+  text-align: left;
 }

@@ -92,6 +92,11 @@ include_once "../helper/format.php"
         $result = $this -> db ->select($query);
         return $result;
     }
+    public function show_loaisanpham_ajax($danhmuc_id){
+        $query = "SELECT * FROM tbl_loaisanpham WHERE loaisanpham_id = '$danhmuc_id'";
+        $result = $this -> db ->select($query);
+        return $result;
+    }
     public function show_color(){
         $query = "SELECT * FROM tbl_color ORDER BY color_id DESC";
         $result = $this -> db ->select($query);

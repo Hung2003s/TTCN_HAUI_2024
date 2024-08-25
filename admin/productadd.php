@@ -2,6 +2,7 @@
 
 include "header.php";
 include "leftside.php";
+include "class/product_class.php";
 // define('__ROOT__', dirname(dirname(__FILE__))); 
 // include "class/product_class.php";
 // require_once(__ROOT__.'../admin/class/product_class.php');
@@ -124,4 +125,18 @@ CKEDITOR.replace( 'ckeditor', {
     filebrowserWindowWidth: '1000',
         filebrowserWindowHeight: '700'}
             </script>
+
+          <script>
+            $(document).ready(function()
+        {
+            $("#danhmuc_id").change(function(){
+                 // alert($(this).val())
+                 var x = $(this).val()
+                $.get("productadd_ajax.php",{danhmuc_id:x},function(data){
+                    $("loaisanpham_id").html(data)
+                })
+            })
+        })
+    
+          </script>  
 </html>  

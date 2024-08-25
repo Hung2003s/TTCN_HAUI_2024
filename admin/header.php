@@ -23,7 +23,7 @@ Session::checkSession()
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
-    
+    <script src="ckeditor/ckeditor.js"></script>
    
     <title>Admin-Ivy</title>
 </head>

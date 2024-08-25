@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])){
                     <label for="">Giá sản phẩm<span style="color: red;">*</span></label> <br>
                     <input required type="text" name="sanpham_gia"> <br>  
                     <label for="">Chi tiết<span style="color: red;">*</span></label> <br>
-                    <textarea class="ckeditor"  required name="sanpham_chitiet" cols="60" rows="5"></textarea><br>  
+                    <textarea class="ckeditor"  required name="sanpham_chitiet" id="editor1" cols="60" rows="5"></textarea><br>  
                     <label  for="">Bảo quản<span style="color: red;">*</span></label> <br>
                     <textarea class="ckeditor" required name="sanpham_baoquan" cols="60" rows="5"></textarea><br> 
                     <label for="">Ảnh đại diện<span style="color: red;">*</span></label> <br>
@@ -112,5 +112,12 @@ CKEDITOR.replace( 'ckeditor', {
         })
     })
 </script>
+
 </body>
+
+<script>
+                // Replace the <textarea id="editor1"> with a CKEditor 4
+                // instance, using default configuration.
+                CKEDITOR.replace( 'editor1' );
+            </script>
 </html>  

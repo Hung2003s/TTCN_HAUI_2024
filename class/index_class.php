@@ -3,11 +3,8 @@
  require_once(__ROOT__.'/admin/lib/database.php');
  require_once(__ROOT__.'/admin/lib/session.php');
  require_once(__ROOT__.'/admin/helper/format.php');
-<<<<<<< Updated upstream
 //  include_once '../admin/helper/format.php';
-=======
 //  include_once '../helper/format.php';
->>>>>>> Stashed changes
 //  include_once '../lib/database.php';
 ?>
 

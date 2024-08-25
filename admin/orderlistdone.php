@@ -2,7 +2,7 @@
 include "header.php";
 include "leftside.php";
 // include "class/product_class.php";
-include_once "../helper/format.php";
+include_once "../admin/helper/format.php";
 // define('__ROOT__', dirname(dirname(__FILE__))); 
 // // include "class/product_class.php";
 // require_once(__ROOT__.'../admin/class/product_class.php');

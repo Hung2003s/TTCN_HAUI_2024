@@ -7,7 +7,7 @@ if(isset($_GET['admin_id'])){
 <section class="admin-content row space-between">
         <div class="admin-content-left">
         <div class="header-top-left">
-            <a href="index.php"><p> <span>I</span>vy</p></a>
+            <a  href="index.php"><p><span ></span></p></a>
         </div>
             <ul>
                 <li><a  href="#"> <img style="width:20px" src="icon/hi.png" alt="">Chào:  <span style="color:blueviolet; font-size:22px"><?php echo Session::get('admin_name') ?></span><span style="color: red; font-size:20px">&#10084;</span></a>

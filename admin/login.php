@@ -19,9 +19,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleback.css">
     <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
-    <title>Ivy-Login</title>
+    <title>VN CLOTHES -Login</title>
 </head>
 <body>
     <div class="login">
@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
             <span style="color:red; font-family: 'Bona Nova', serif;"><?php
             if(isset($check_admin)){ echo $check_admin;}
             ?></span>
-            <h1>Ivy - Login</h1>
+            <h1>VN CLOTHES - Login</h1>
             <form action="" method="POST">
                 <input type="text" name="username" placeholder="Username">
                 <input type="password" name="password" placeholder="Password">

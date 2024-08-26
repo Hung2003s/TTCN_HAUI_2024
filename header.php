@@ -23,7 +23,7 @@ $index = new index;
     <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="css/mainstyle.css">
-    <title>Website - Ivy</title>
+    <title>Website - VN CLOTHES</title>
 </head>
 <body>
     <secsion class="top">
@@ -33,7 +33,7 @@ $index = new index;
                     <i class="fas fa-bars"></i>
                 </div>
                 <div class="top-logo">
-                    <a href="index.php"><img src="image/logo.png" alt=""></a>
+                    <a href="index.php"><img src="frontend/image/logo.png" alt=""></a>
                 </div>
                 <div class="top-menu-items">
                     <ul>

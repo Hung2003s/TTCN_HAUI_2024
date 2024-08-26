@@ -35,7 +35,7 @@ $product = new product();
                 ?>
                     <tr>
                         <td> <?php echo $i ?></td>
-                        <td> Ivy_<?php $ma = substr($result['session_idA'],0,8); echo $ma   ?></td>
+                        <td> VN CLOthes_<?php $ma = substr($result['session_idA'],0,8); echo $ma   ?></td>
                         <td> <?php echo $result['order_date']?></td>
                         <td> <?php echo $result['customer_name']?></td>
                         <td> <?php echo $result['customer_phone'] ?></td>

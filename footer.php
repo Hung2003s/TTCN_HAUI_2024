@@ -30,8 +30,8 @@
     </section>
 
 
-<script src="js/script.js"></script>
-<script src="js/slider.js"></script>
+<script src="frontend/js/script.js"></script>
+<script src="frontend/js/slider.js"></script>
 
 
 </body>

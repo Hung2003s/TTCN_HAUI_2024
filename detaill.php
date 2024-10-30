@@ -8,7 +8,7 @@ $session_id = session_id();
            <div class="detail-top">
                 <p>CHI TIẾT ĐƠN HÀNG</p>
             </div>
-            <h1>Mã đơn hàng:<span style="font-size: 20px; color: #378000;">IVY<?php $ma = substr($session_id,0,8); echo $ma   ?></span></h1>
+            <h1>Mã đơn hàng:<span style="font-size: 20px; color: #378000;">VN CLothes<?php $ma = substr($session_id,0,8); echo $ma   ?></span></h1>
             <div class="detail-text">
             <div class="detail-text-left-content">
                 <p><span style="font-weight: bold; color:red">Thông tin giao hàng</span></p>

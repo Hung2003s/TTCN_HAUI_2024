@@ -116,7 +116,7 @@ if(!isset($_GET['id'])){
                         <a href="delivery.php"><button>THANH TOÁN</button></a>
                     </div>
                     <div class="cart-content-right-dangnhap">
-                        <p>TÀI KHOẢN IVY</p> <br>
+                        <p>TÀI KHOẢN VN CLothes</p> <br>
                         <p>Hãy <a href="">đăng nhập</a> tài khoản của bạn để tích điểm thành viên.</p>
                     </div>
                 </div>

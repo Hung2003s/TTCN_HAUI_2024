@@ -13,11 +13,11 @@ $session_id = session_id();
                 $show_cartC = $index -> show_cartC($session_id);
                 if($show_cartC){while($result = $show_cartC->fetch_assoc()){
             ?> 
-                <p>Chào <span  style="font-size: 20px; color: #378000;"><?php echo $result['customer_name'] ?></span>, đơn hàng của bạn với mã <span style="font-size: 20px; color: #378000;">IVY<?php $ma = substr($session_id,0,8); echo $ma   ?></span> đã được đặt thành công. <br>
+                <p>Chào <span  style="font-size: 20px; color: #378000;"><?php echo $result['customer_name'] ?></span>, đơn hàng của bạn với mã <span style="font-size: 20px; color: #378000;">VN CLothes<?php $ma = substr($session_id,0,8); echo $ma   ?></span> đã được đặt thành công. <br>
                     Đơn hàng của bạn đã được xác nhận tự động. <br>
                     <span style="font-weight: bold;">Hiện tại do đang trong Chương trình Sale lớn, đơn hàng của quý khách sẽ gửi chậm hơn so với thời gian dự kiến từ 5-10 ngày. Rất mong quý khách thông cảm vì sự bất tiện này!</span><br>
                     <span style="color: red;">(Lưu ý: VN CLOTHEsẽ không gọi xác nhận đơn hàng, đơn hàng đươc xử lý tự động và sẽ giao cho bạn trong thời sớm nhất)</span><br>
-                    Cám ơn <span  style="font-size: 20px; color: #378000;"><?php echo $result['customer_name'] ?></span> đã tin dùng sản phẩm của IVY moda.</p>
+                    Cám ơn <span  style="font-size: 20px; color: #378000;"><?php echo $result['customer_name'] ?></span> đã tin dùng sản phẩm của VN CLothes.</p>
             <?php
              }}
             ?>
